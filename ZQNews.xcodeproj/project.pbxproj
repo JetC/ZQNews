@@ -14,14 +14,14 @@
 		0E04B23B182635C7006DBF95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04B23A182635C7006DBF95 /* main.m */; };
 		0E04B23F182635C7006DBF95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04B23E182635C7006DBF95 /* AppDelegate.m */; };
 		0E04B242182635C7006DBF95 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E04B240182635C7006DBF95 /* Main_iPhone.storyboard */; };
-		0E04B245182635C7006DBF95 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E04B243182635C7006DBF95 /* Main_iPad.storyboard */; };
-		0E04B248182635C7006DBF95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04B247182635C7006DBF95 /* ViewController.m */; };
 		0E04B24A182635C7006DBF95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E04B249182635C7006DBF95 /* Images.xcassets */; };
 		0E04B251182635C7006DBF95 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E04B250182635C7006DBF95 /* XCTest.framework */; };
 		0E04B252182635C7006DBF95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E04B22E182635C7006DBF95 /* Foundation.framework */; };
 		0E04B253182635C7006DBF95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E04B232182635C7006DBF95 /* UIKit.framework */; };
 		0E04B25B182635C7006DBF95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E04B259182635C7006DBF95 /* InfoPlist.strings */; };
 		0E04B25D182635C7006DBF95 /* ZQNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04B25C182635C7006DBF95 /* ZQNewsTests.m */; };
+		0E04B26E182637C8006DBF95 /* ZQNewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04B26D182637C8006DBF95 /* ZQNewsListViewController.m */; };
+		0E04B271182637EF006DBF95 /* ZQNewsContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04B270182637EF006DBF95 /* ZQNewsContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,15 +46,16 @@
 		0E04B23D182635C7006DBF95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E04B23E182635C7006DBF95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0E04B241182635C7006DBF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		0E04B244182635C7006DBF95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		0E04B246182635C7006DBF95 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0E04B247182635C7006DBF95 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0E04B249182635C7006DBF95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0E04B24F182635C7006DBF95 /* ZQNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZQNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E04B250182635C7006DBF95 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0E04B258182635C7006DBF95 /* ZQNewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZQNewsTests-Info.plist"; sourceTree = "<group>"; };
 		0E04B25A182635C7006DBF95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E04B25C182635C7006DBF95 /* ZQNewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQNewsTests.m; sourceTree = "<group>"; };
+		0E04B26C182637C8006DBF95 /* ZQNewsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQNewsListViewController.h; sourceTree = "<group>"; };
+		0E04B26D182637C8006DBF95 /* ZQNewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQNewsListViewController.m; sourceTree = "<group>"; };
+		0E04B26F182637EF006DBF95 /* ZQNewsContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQNewsContentViewController.h; sourceTree = "<group>"; };
+		0E04B270182637EF006DBF95 /* ZQNewsContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQNewsContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +118,11 @@
 				0E04B23D182635C7006DBF95 /* AppDelegate.h */,
 				0E04B23E182635C7006DBF95 /* AppDelegate.m */,
 				0E04B240182635C7006DBF95 /* Main_iPhone.storyboard */,
-				0E04B243182635C7006DBF95 /* Main_iPad.storyboard */,
-				0E04B246182635C7006DBF95 /* ViewController.h */,
-				0E04B247182635C7006DBF95 /* ViewController.m */,
 				0E04B249182635C7006DBF95 /* Images.xcassets */,
+				0E04B26C182637C8006DBF95 /* ZQNewsListViewController.h */,
+				0E04B26D182637C8006DBF95 /* ZQNewsListViewController.m */,
+				0E04B26F182637EF006DBF95 /* ZQNewsContentViewController.h */,
+				0E04B270182637EF006DBF95 /* ZQNewsContentViewController.m */,
 				0E04B235182635C7006DBF95 /* Supporting Files */,
 			);
 			path = ZQNews;
@@ -231,7 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E04B245182635C7006DBF95 /* Main_iPad.storyboard in Resources */,
 				0E04B24A182635C7006DBF95 /* Images.xcassets in Resources */,
 				0E04B242182635C7006DBF95 /* Main_iPhone.storyboard in Resources */,
 				0E04B239182635C7006DBF95 /* InfoPlist.strings in Resources */,
@@ -253,8 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E04B248182635C7006DBF95 /* ViewController.m in Sources */,
 				0E04B23F182635C7006DBF95 /* AppDelegate.m in Sources */,
+				0E04B26E182637C8006DBF95 /* ZQNewsListViewController.m in Sources */,
+				0E04B271182637EF006DBF95 /* ZQNewsContentViewController.m in Sources */,
 				0E04B23B182635C7006DBF95 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,14 +294,6 @@
 				0E04B241182635C7006DBF95 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		0E04B243182635C7006DBF95 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0E04B244182635C7006DBF95 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		0E04B259182635C7006DBF95 /* InfoPlist.strings */ = {
@@ -396,6 +390,7 @@
 				GCC_PREFIX_HEADER = "ZQNews/ZQNews-Prefix.pch";
 				INFOPLIST_FILE = "ZQNews/ZQNews-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,6 +404,7 @@
 				GCC_PREFIX_HEADER = "ZQNews/ZQNews-Prefix.pch";
 				INFOPLIST_FILE = "ZQNews/ZQNews-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
