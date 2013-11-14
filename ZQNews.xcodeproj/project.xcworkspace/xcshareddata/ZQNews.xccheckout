@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AC0A924D-AE52-4F17-8E63-FCC04C707188</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZQNews</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2E4578A8-0F05-4E5D-9A44-6FA964B4F93C</key>
+		<string>https://github.com/s773364/AFNetworking.git</string>
+		<key>325A59A4-97E5-4246-B96F-23C1D6A8A033</key>
+		<string>https://github.com/s773364/ZQNews.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZQNews.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2E4578A8-0F05-4E5D-9A44-6FA964B4F93C</key>
+		<string>../../ZQNews/AFNetworking</string>
+		<key>325A59A4-97E5-4246-B96F-23C1D6A8A033</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/s773364/ZQNews.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>325A59A4-97E5-4246-B96F-23C1D6A8A033</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2E4578A8-0F05-4E5D-9A44-6FA964B4F93C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AFNetworking</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>325A59A4-97E5-4246-B96F-23C1D6A8A033</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZQNews</string>
+		</dict>
+	</array>
+</dict>
+</plist>

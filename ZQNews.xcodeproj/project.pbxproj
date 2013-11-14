@@ -22,6 +22,17 @@
 		0E04B25D182635C7006DBF95 /* ZQNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04B25C182635C7006DBF95 /* ZQNewsTests.m */; };
 		0E04B26E182637C8006DBF95 /* ZQNewsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04B26D182637C8006DBF95 /* ZQNewsListViewController.m */; };
 		0E04B271182637EF006DBF95 /* ZQNewsContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E04B270182637EF006DBF95 /* ZQNewsContentViewController.m */; };
+		DFA294E81834FAF70069CF44 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA294D61834FAF70069CF44 /* AFHTTPClient.m */; };
+		DFA294E91834FAF70069CF44 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA294D81834FAF70069CF44 /* AFHTTPRequestOperation.m */; };
+		DFA294EA1834FAF70069CF44 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA294DA1834FAF70069CF44 /* AFImageRequestOperation.m */; };
+		DFA294EB1834FAF70069CF44 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA294DC1834FAF70069CF44 /* AFJSONRequestOperation.m */; };
+		DFA294EC1834FAF70069CF44 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA294DE1834FAF70069CF44 /* AFNetworkActivityIndicatorManager.m */; };
+		DFA294ED1834FAF70069CF44 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA294E11834FAF70069CF44 /* AFPropertyListRequestOperation.m */; };
+		DFA294EE1834FAF70069CF44 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA294E31834FAF70069CF44 /* AFURLConnectionOperation.m */; };
+		DFA294EF1834FAF70069CF44 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA294E51834FAF70069CF44 /* AFXMLRequestOperation.m */; };
+		DFA294F01834FAF70069CF44 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA294E71834FAF70069CF44 /* UIImageView+AFNetworking.m */; };
+		DFA294F21834FB630069CF44 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA294F11834FB630069CF44 /* SystemConfiguration.framework */; };
+		DFA294F41834FB720069CF44 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA294F31834FB720069CF44 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +67,28 @@
 		0E04B26D182637C8006DBF95 /* ZQNewsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQNewsListViewController.m; sourceTree = "<group>"; };
 		0E04B26F182637EF006DBF95 /* ZQNewsContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQNewsContentViewController.h; sourceTree = "<group>"; };
 		0E04B270182637EF006DBF95 /* ZQNewsContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQNewsContentViewController.m; sourceTree = "<group>"; };
+		DFA294CE1834F9D90069CF44 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		DFA294D51834FAF70069CF44 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		DFA294D61834FAF70069CF44 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		DFA294D71834FAF70069CF44 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		DFA294D81834FAF70069CF44 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		DFA294D91834FAF70069CF44 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		DFA294DA1834FAF70069CF44 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		DFA294DB1834FAF70069CF44 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		DFA294DC1834FAF70069CF44 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		DFA294DD1834FAF70069CF44 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		DFA294DE1834FAF70069CF44 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		DFA294DF1834FAF70069CF44 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		DFA294E01834FAF70069CF44 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		DFA294E11834FAF70069CF44 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		DFA294E21834FAF70069CF44 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		DFA294E31834FAF70069CF44 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		DFA294E41834FAF70069CF44 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		DFA294E51834FAF70069CF44 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		DFA294E61834FAF70069CF44 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		DFA294E71834FAF70069CF44 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		DFA294F11834FB630069CF44 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DFA294F31834FB720069CF44 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +96,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA294F41834FB720069CF44 /* MobileCoreServices.framework in Frameworks */,
+				DFA294F21834FB630069CF44 /* SystemConfiguration.framework in Frameworks */,
 				0E04B231182635C7006DBF95 /* CoreGraphics.framework in Frameworks */,
 				0E04B233182635C7006DBF95 /* UIKit.framework in Frameworks */,
 				0E04B22F182635C7006DBF95 /* Foundation.framework in Frameworks */,
@@ -104,6 +139,9 @@
 		0E04B22D182635C7006DBF95 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DFA294F31834FB720069CF44 /* MobileCoreServices.framework */,
+				DFA294F11834FB630069CF44 /* SystemConfiguration.framework */,
+				DFA294CE1834F9D90069CF44 /* SenTestingKit.framework */,
 				0E04B22E182635C7006DBF95 /* Foundation.framework */,
 				0E04B230182635C7006DBF95 /* CoreGraphics.framework */,
 				0E04B232182635C7006DBF95 /* UIKit.framework */,
@@ -115,6 +153,7 @@
 		0E04B234182635C7006DBF95 /* ZQNews */ = {
 			isa = PBXGroup;
 			children = (
+				DFA294D41834FAF70069CF44 /* AFNetworking */,
 				0E04B23D182635C7006DBF95 /* AppDelegate.h */,
 				0E04B23E182635C7006DBF95 /* AppDelegate.m */,
 				0E04B240182635C7006DBF95 /* Main_iPhone.storyboard */,
@@ -155,6 +194,33 @@
 				0E04B259182635C7006DBF95 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFA294D41834FAF70069CF44 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				DFA294D51834FAF70069CF44 /* AFHTTPClient.h */,
+				DFA294D61834FAF70069CF44 /* AFHTTPClient.m */,
+				DFA294D71834FAF70069CF44 /* AFHTTPRequestOperation.h */,
+				DFA294D81834FAF70069CF44 /* AFHTTPRequestOperation.m */,
+				DFA294D91834FAF70069CF44 /* AFImageRequestOperation.h */,
+				DFA294DA1834FAF70069CF44 /* AFImageRequestOperation.m */,
+				DFA294DB1834FAF70069CF44 /* AFJSONRequestOperation.h */,
+				DFA294DC1834FAF70069CF44 /* AFJSONRequestOperation.m */,
+				DFA294DD1834FAF70069CF44 /* AFNetworkActivityIndicatorManager.h */,
+				DFA294DE1834FAF70069CF44 /* AFNetworkActivityIndicatorManager.m */,
+				DFA294DF1834FAF70069CF44 /* AFNetworking.h */,
+				DFA294E01834FAF70069CF44 /* AFPropertyListRequestOperation.h */,
+				DFA294E11834FAF70069CF44 /* AFPropertyListRequestOperation.m */,
+				DFA294E21834FAF70069CF44 /* AFURLConnectionOperation.h */,
+				DFA294E31834FAF70069CF44 /* AFURLConnectionOperation.m */,
+				DFA294E41834FAF70069CF44 /* AFXMLRequestOperation.h */,
+				DFA294E51834FAF70069CF44 /* AFXMLRequestOperation.m */,
+				DFA294E61834FAF70069CF44 /* UIImageView+AFNetworking.h */,
+				DFA294E71834FAF70069CF44 /* UIImageView+AFNetworking.m */,
+			);
+			name = AFNetworking;
+			path = ../AFNetworking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,10 +320,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA294EE1834FAF70069CF44 /* AFURLConnectionOperation.m in Sources */,
+				DFA294F01834FAF70069CF44 /* UIImageView+AFNetworking.m in Sources */,
+				DFA294EA1834FAF70069CF44 /* AFImageRequestOperation.m in Sources */,
+				DFA294E91834FAF70069CF44 /* AFHTTPRequestOperation.m in Sources */,
+				DFA294E81834FAF70069CF44 /* AFHTTPClient.m in Sources */,
+				DFA294EF1834FAF70069CF44 /* AFXMLRequestOperation.m in Sources */,
 				0E04B23F182635C7006DBF95 /* AppDelegate.m in Sources */,
 				0E04B26E182637C8006DBF95 /* ZQNewsListViewController.m in Sources */,
 				0E04B271182637EF006DBF95 /* ZQNewsContentViewController.m in Sources */,
+				DFA294EB1834FAF70069CF44 /* AFJSONRequestOperation.m in Sources */,
 				0E04B23B182635C7006DBF95 /* main.m in Sources */,
+				DFA294ED1834FAF70069CF44 /* AFPropertyListRequestOperation.m in Sources */,
+				DFA294EC1834FAF70069CF44 /* AFNetworkActivityIndicatorManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +461,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZQNews/ZQNews-Prefix.pch";
 				INFOPLIST_FILE = "ZQNews/ZQNews-Info.plist";
@@ -400,6 +479,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZQNews/ZQNews-Prefix.pch";
 				INFOPLIST_FILE = "ZQNews/ZQNews-Info.plist";
@@ -470,6 +553,7 @@
 				0E04B262182635C7006DBF95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E04B263182635C7006DBF95 /* Build configuration list for PBXNativeTarget "ZQNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +562,7 @@
 				0E04B265182635C7006DBF95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

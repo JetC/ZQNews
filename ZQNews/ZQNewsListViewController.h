@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZQNewsListViewController : UIViewController
+@interface ZQNewsListViewController : UITableViewController
+
+@property (nonatomic,strong) NSString *category;
 
 @end

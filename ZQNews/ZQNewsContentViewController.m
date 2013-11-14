@@ -8,7 +8,7 @@
 
 #import "ZQNewsContentViewController.h"
 
-@interface ZQNewsContentViewController ()
+@interface ZQNewsContentViewController ()<UITableViewDataSource>
 
 @end
 
